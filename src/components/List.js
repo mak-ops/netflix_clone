@@ -16,7 +16,7 @@ const List = ({ title, param }) => {
             {
               list.map(item => <img
                 className="row__poster row__posterLarge"
-                // src={`https://image.tmdb.org/t/p/original${item.poster_path}`}
+                src={`https://image.tmdb.org/t/p/original${item.poster_path}`}
                 alt={item.title}
               />)
             }
